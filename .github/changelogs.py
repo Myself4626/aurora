@@ -9,12 +9,12 @@ from collections import defaultdict
 REGISTRY = "docker://ghcr.io/ublue-os/"
 
 IMAGE_MATRIX_LATEST = {
-    "experience": ["base", "dx"],
-    "image_flavor": ["main", "nvidia", "hwe", "hwe-nvidia"],
+    "experience": ["base"],
+    "image_flavor": ["main"],
 }
 IMAGE_MATRIX = {
-    "experience": ["base", "dx"],
-    "image_flavor": ["main", "nvidia"],
+    "experience": ["base"],
+    "image_flavor": ["main"],
 }
 
 RETRIES = 3
